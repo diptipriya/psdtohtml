@@ -8,29 +8,30 @@
 
     <!-- Bootstrap CSS -->
     
-    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" >
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
-    
-    <title>Hello, world!</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700" rel="stylesheet">
+    <title>Invezta</title>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-default " >
-          <div class="container fullnav">
+     <header>
+        <nav class="nav" role="navigation">
+          
+            <a class="nav-link " href="#"><i class="fa fa-arrow-left fa-3x" aria-hidden="true"></i></a>
+            <a class="nav-link" href="#"><img src="images/InveztaLogo.png"></a>
             
-            <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img src="images/Invezta Logo.png" width="232" height="64" alt="">
-          </a>
-          
-          </div>
-          <a href="#">cross</a>
-          </div>
-          
-      </nav>
-
-    </header> 
+            <div class="container clearfix"> 
+            <button type =" button" class = "close float-right" aria-label = "Close" >
+              <span aria-hidden = "true">×</span>
+              
+            </button>
+            </div>
+          </nav>
+        
+       </header>
+    
       <div class="main">
         <section id="portfolio">
           <div class="container-fluid text-center">
@@ -38,9 +39,9 @@
                     <h1>
                         Your Recommended Portfolio
                     </h1>
-                      <h3>
+                      <span class="subhead">
                          how did we do it? 
-                      </h3>
+                      </span>
                  
             </div>
          </section>
@@ -58,7 +59,8 @@
               <div class="col-md-2">
                  <div class="row no-gutters">
                    <div class="col-md-2">
-                  <i class="fas fa-user"></i></div>
+                   <i class="fas fa-user"></i>
+                  </div>
                   <div class="col-md-8">
                     
                     <h3>
@@ -99,64 +101,89 @@
           
           
 <section id="info">
-  <div class="container"> 
-      <div class="row">
+  <div class="container clearfix"> 
+      <div class="row clearfix">
           <div class="col-md-5">
 
 
           </div>
-          <div class="col-md-7">
-              <div class="card mb-3" style="max-width: 740px;">
+          <div class="col-md-7 clearfix">
+              <div class="card mb-3 card1" style="max-width: 740px;">
                   <div class="row no-gutters">
                     
                     <div class="col-md-10">
                       <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below 
+                        <h6 class="card-title">
+                          Aditya Birla Sun Life Front Line Equity Fund - Growth - Direct Plan
+                        </h6>
+                        <p class="card-text">
+                          
+                          
+                          <ul class = "list-inline">
+                            <li class = "list-inline-item">Large Cap</li>
+                            <li class = "list-inline-item float-right">Min Investmaent Amt:500</li>
+                            
+                         </ul>
+                         
+                          
+                          
                         </p>
+
                       </div>
                     </div>
-                    <div class="col-md-2 cost text-center">
+                    <div class="col-md-2 text-center cost">
                         <h4>10,000</h4>
                       </div>
                   </div>
                 </div>
            
-                <div class="card mb-3" style="max-width: 740px;">
-                    <div class="row no-gutters">
-                      
-                      <div class="col-md-10">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">This is a wider card with supporting text below 
-                          </p>
-                        </div>
-                      </div>
-                      <div class="col-md-2 text-center cost">
-                          <h4>10,000</h4>
-                        </div>
-                    </div>
-                  </div>
+                
                   
-                  <div class="card mb-3" style="max-width: 840px;">
+                  <div class="card mb-3 card2" style="max-width: 840px;">
                       <div class="row no-gutters">
                         
                         <div class="col-md-10">
                           <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below 
+                            <h5 class="card-title">Franklin India Prime Fund-Growth-Direct plan</h5>
+                            <p class="card-text">  <ul class = "list-inline">
+                                <li class = "list-inline-item">Mid/Small Cap</li>
+                                <li class = "list-inline-item float-right">Min Investmaent Amt:500</li>
+                                
+                             </ul>
+                             
                             </p>
-                          </div>
+                          </div>      
                         </div>
-                        <div class="col-md-2 cost">
+                        <div class="col-md-2 text-center cost">
                             <h4>10,000</h4>
                           </div>
                       </div>
                     </div>   
+                    <div class="card mb-3 card3" style="max-width: 740px;">
+                        <div class="row no-gutters">
+                          
+                          <div class="col-md-10">
+                            <div class="card-body">
+                              <h5 class="card-title">ICICI Prudential Bond Fund-Growth-Direct-Plan</h5>
+                              <p class="card-text">
+                                  <ul class = "list-inline">
+                                      <li class = "list-inline-item">Long Term Income/Gilt</li>
+                                      <li class = "list-inline-item float-right">Min Investmaent Amt:500</li>
+                                      
+                                   </ul>
+                                   
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-md-2 text-center cost">
+                              <h4>10,000</h4>
+                            </div>
+                        </div>
+                      </div>
 
-
-
+                <p><small class="float-right">All Values are in INR</small></p>
           </div>
+          
       </div>
 
   </div>
